@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InformacionGT"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imgPerfil"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"></ImageView>
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/lbtBienvenida"
+        android:text="Frases de tía"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="70dp"
+        android:textAlignment="center"
+        android:textSize="23dp"
+        android:gravity="center_horizontal"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lbtImportante"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/lbtBienvenida"
+        android:text="Información importante"></TextView>
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/lbtInformacion"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/lbtImportante"
+        android:text="Informacion: "></TextView>
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/lbtIformacionSec"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:text="Información secundaria"></TextView>
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/lbtInfoSec"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="230dp"
+        android:text="Información: "></TextView>
+
+
+</RelativeLayout>

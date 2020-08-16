@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CrearCuenta">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/llayout"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/lbtTitulo"
+                android:text="Crear Cuenta"
+                android:textAlignment="center"
+                android:layout_marginTop="30dp"
+                android:gravity="center_horizontal"
+                android:textSize="18dp"></TextView>
+
+            <EditText
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtNombre"
+                android:hint="Nombre"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"></EditText>
+
+            <EditText
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtApellido"
+                android:hint="Apellido"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"></EditText>
+
+            <EditText
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtCorreoElec"
+                android:hint="Correo electronico"
+                android:layout_gravity="center"
+                android:inputType="textEmailAddress"
+                android:layout_marginTop="10dp"></EditText>
+
+            <EditText
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtContraseñaC"
+                android:hint="Contraseña"
+                android:inputType="textPassword"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"></EditText>
+
+            <EditText
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtConfirContrasC"
+                android:hint="Confirmar contraseña"
+                android:inputType="textPassword"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"></EditText>
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnCrearCuenta"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center"
+                android:text="Crear"></Button>
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnVolver"
+                android:layout_marginTop="200dp"
+                android:text="Volver"
+                android:layout_marginLeft="150dp"></Button>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</ScrollView>
